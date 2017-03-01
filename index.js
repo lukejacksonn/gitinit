@@ -12,7 +12,7 @@ const init = (from, into, pass) => {
     `cd ${dir}`,
     `rm -rf .git`,
     `git init`,
-    `git remote add origin git@git hub.com:${user}/${dir}.git`,
+    `git remote add origin git@github.com:${user}/${dir}.git`,
     `git add .`,
     `git commit -m "Gitinit ${from}"`,
     `git push origin master`,
